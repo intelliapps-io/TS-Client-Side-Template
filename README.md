@@ -6,5 +6,6 @@ A bare and featureless typescript boilerplate (starter template)
     // To get stared, run
     npm i
     npm run dev 
-    // then visit localhost:3000
+    
+    // visit localhost:3000
 
