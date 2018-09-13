@@ -1,0 +1,52 @@
+@import "./styles/breakpoints.scss";
+
+$container-border-radius: 5px;
+
+.layout {
+  height: 100vh;
+  max-height: 100vh;
+  .header {
+    background-color: #f9f7f7;
+    border-top-left-radius: $container-border-radius;
+    border-top-right-radius: $container-border-radius;
+    padding: 10px 20px;
+  }
+
+  .content {
+    padding: 50px 100px;
+
+    .container {
+      padding: 25px;
+      border-bottom-left-radius: $container-border-radius;
+      border-bottom-right-radius: $container-border-radius;
+      background-color: #ffffff;
+    }
+  }
+}
+
+///////////
+// Buttons
+///////////
+
+// Circle Btn
+.circle-btn {
+  margin: 0 5px;
+}
+
+// Icon Btn
+.icon-btn {
+  cursor: pointer;
+  padding: 2px;
+  padding-right: 5px;
+  padding-left: 7px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  transition: all 0.3s;
+}
+.icon-btn:hover {
+  border-color: #e8e8e8;
+}
+.icon-btn:active {
+  background-color: #e8e8e8;
+  transition: all 0.1s;
+}
