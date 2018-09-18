@@ -5,10 +5,7 @@ import { Provider } from 'mobx-react';
 import AppState from "./app/AppState";
 import App from "./app/App";
 
-import bookingData from "./assets/bookingData";
-const { bookingDays, timeSlots, timeZone } = bookingData;
-
-const appState = new AppState(bookingDays, timeSlots, timeZone);
+const appState = new AppState();
 
 ReactDOM.render(
   <Provider appState={appState}>
